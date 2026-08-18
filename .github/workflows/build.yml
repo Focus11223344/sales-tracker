@@ -27,7 +27,7 @@ jobs:
           channel: 'stable'
 
       - name: Recreate Android Project Files
-        run: flutter create . --platforms=android
+        run: flutter create . --platforms=android --project-name sales_tracker
 
       - name: Install Dependencies
         run: flutter pub get
